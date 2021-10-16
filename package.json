@@ -1,0 +1,26 @@
+{
+  "name": "rn-svg-icon-generator",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Generate react-native-svg-icon packs from SVG files",
+  "author": "Lars de Ridder <lars@xithing.io>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "files": ["src", "lib"],
+  "scripts": {
+    "build:icons": "node src/build.js",
+    "lint": "eslint src/**/*.js && jshint src/**/*.js"
+  },
+  "dependencies": {
+    "async": "^3.2.1",
+    "lodash": "^4.17.21",
+    "react": "^16.13.0",
+    "react-native-svg": "^12.1.1",
+    "react-native-svg-icon": "^0.10.0",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "jshint": "^2.13.1"
+  }
+}

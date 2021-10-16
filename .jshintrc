@@ -1,0 +1,9 @@
+{
+  "esversion": 6,
+  "module": true,
+  "node": true,
+  "sub": true,
+  "undef": true,
+  "unused": true,
+  "asi": true
+}
