@@ -12,15 +12,15 @@
     "lint": "eslint src/**/*.js && jshint src/**/*.js"
   },
   "dependencies": {
-    "async": "^3.2.1",
+    "async": "^3.2.5",
     "lodash": "^4.17.21",
     "react": "^16.13.0",
     "react-native-svg": "^12.1.1",
     "react-native-svg-icon": "^0.10.0",
-    "xml2js": "^0.4.23"
+    "xml2js": "^0.6.2"
   },
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "jshint": "^2.13.1"
+    "eslint": "^8.57.0",
+    "jshint": "^2.13.6"
   }
 }
