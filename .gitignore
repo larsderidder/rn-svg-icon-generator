@@ -3,3 +3,10 @@ node_modules
 npm-debug.log
 lib/svgs.js
 .npm-cache
+
+.idea/
+.env
+.env.*
+!.env.example
+project-export-*.csv
+assignee-map.json
