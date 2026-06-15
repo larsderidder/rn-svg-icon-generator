@@ -22,7 +22,14 @@ function listSvgFiles(sourceDir) {
 }
 
 function toIconKey(rawId) {
-  return _.upperFirst(rawId.replace('-', ' ')).replace(' ', '')
+  const key = rawId
+    .split(/[^A-Za-z0-9]+/)
+    .filter(Boolean)
+    .map(function (part) {
+      return _.upperFirst(part)
+    })
+    .join('')
+  return /^[A-Za-z_]/.test(key) ? key : 'Icon' + key
 }
 
 function buildEntry(svgInfo) {
